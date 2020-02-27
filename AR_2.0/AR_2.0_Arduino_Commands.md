@@ -98,9 +98,9 @@ Format: `MJA{J1D}{J1S}B{J2D}{J2S}C{J3D}{J3S}D{J4D}{J4S}E{J5D}{J5S}F{J6D}{J6S}T{T
 - `{TRD}`: (`0`|`1`) Track direction
 - `{TRS}`: (int) Track step
 - `{SPEED}`: (float) speed
-- `{ACCD}`: (int) acceleration dur
+- `{ACCD}`: (int) acceleration duration
 - `{ACCS}`: (int) acceleration speed
-- `{DCCD}`: (int) deceleration dur
+- `{DCCD}`: (int) deceleration duration
 - `{DCCS}`: (int) deceleration speed
 
 Returns `command recieved` **before** executing the command.
